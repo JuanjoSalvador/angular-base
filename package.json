@@ -1,0 +1,11 @@
+{
+  "name": "angular-base",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Juanjo Salvador <juanjosalvador@openmailbox.org> (http://juanjosalvador.es)",
+  "license": "ISC"
+}

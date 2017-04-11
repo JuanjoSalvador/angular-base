@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gas & Distri</title>
+  
+  <!-- languages -->
+  <script src="locales/en.js"></script>
+  <script src="locales/es.js"></script>
+  <script src="locales/pt.js"></script>
+
+  <!-- dependencies here -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src='bower_components/datatables.net/js/jquery.dataTables.min.js' type="text/javascript"></script>
+  <script src='bower_components/angular-translate/angular-translate.min.js' type="text/javascript"></script>
+  <script src='bower_components/chart.js/dist/Chart.min.js' type='text/javascript'></script>
+  <script src='bower_components/angular-chart.js/dist/angular-chart.js' type='text/javascript'></script>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/app.min.css">
+  <link rel="stylesheet" href="css/quickfix.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/datatables.net-dt/css/jquery.dataTables.min.css">
+
+
+  <!-- components -->
+  <script src="controllers/home.controller.js"></script>
+  <script src="controllers/ventas.controller.js"></script>
+  <script src="controllers/login.controller.js"></script>
+  <script src="controllers/pdf.controller.js"></script>
+  <script src="directives/components.js"></script>
+  <script src="services/home.service.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body ng-app="app">
+    <ui-view></ui-view>
+</body>
