@@ -1,25 +1,4 @@
 <div id="login-form">
     <!-- FORMULARIO DE LOGIN -->
-    <div class="container orange">
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <br>
-                <img src="../img/galp.png" class="img-responsive">
-                <form>
-                    <div class="form-group col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
-                        <div ng-show="error" class="alert alert-danger" role="alert">
-                            <span class="glyphicon glyphicon-info-sign"></span> {{ message }}
-                        </div>
-                        <label for="username">Usuario:</label>
-                        <input type="text" class="form-control" ng-model="credentials.username">
-                        <br>
-                        <label for="pwd">Contraseña:</label>
-                        <input type="password" class="form-control" ng-model="credentials.password">
-                        <br>
-                        <button class="btn btn-default" ng-click="login()">Entrar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    <my-awesome-component></my-awesome-component>
 </div>

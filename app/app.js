@@ -7,10 +7,10 @@ angular.module('app', [
 
   $stateProvider
     .state({
-      name: 'login',
+      name: 'home',
       url: '/',
-      templateUrl: 'views/login.html',
-      controller: loginCtrl
+      templateUrl: 'views/home.html',
+      controller: homeCtrl
     })
 
     // By default

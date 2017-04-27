@@ -1,6 +1,6 @@
 {
-  "name": "Empleados",
-  "version": "0.0.1",
+  "name": "AngularBase",
+  "version": "0.0.2",
   "description": "",
   "main": "server.js",
   "scripts": {
