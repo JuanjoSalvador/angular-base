@@ -1,5 +1,13 @@
 # angular-base
-Angular 1.6.0 base project
+Angular 1.6.0 base project.
+
+### Includes
+
+* Angular 1.6
+* Font Awesome
+* Angular UI Router
+* Bootstrap
+
 
 ### How to install
 
