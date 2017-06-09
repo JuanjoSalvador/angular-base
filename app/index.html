@@ -12,21 +12,31 @@
   <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  
 
 
   <!-- styles -->
   <link rel="stylesheet" href="css/app.min.css">
   <link rel="stylesheet" href="css/quickfix.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components\components-font-awesome\css\font-awesome.min.css">
+  <link rel="icon" type="image/ico" href="/favicon.ico"/>
 
 
-  <!-- components -->
+   <!-- main -->
+  <script src="app.js"></script>
+   <!-- components -->
   <script src="controllers/controllers.js"></script>
   <script src="directives/components.js"></script>
-  <script src="services/service.js"></script>
-  <script src="app.js"></script>
+  <script src="services/services.js"></script>
 </head>
 
 <body ng-app="app">
     <ui-view></ui-view>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Angular Base 0.0.3 - Juanjo Salvador - Licencia MIT.</p>
+      </div>
+    </footer>
 </body>
