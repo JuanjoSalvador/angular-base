@@ -1,5 +1,9 @@
 # angular-base
-Angular 1.6.0 base project.
+Angular 1.6.3 base project.
+
+# THIS PROJECTS IS DEPRECATED.
+This is legacy code. Consider using Angular 5 instead of AngularJS
+---
 
 ### Includes
 
