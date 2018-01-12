@@ -3,17 +3,16 @@ Angular 1.6.0 base project.
 
 ### Includes
 
-* Angular 1.6
+* Angular 1.6.3
 * Font Awesome
 * Angular UI Router
-* Bootstrap
+* Bootstrap 3.3.7
 
 
 ### How to install
 
     git clone https://github.com/JuanjoSalvador/angular-base.git
     npm install
-    bower install
     
 ### How to run it
 
